@@ -7,7 +7,7 @@ export function LandingFooter() {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <Leaf className="h-6 w-6 text-primary" />
           <p className="text-center text-sm leading-loose md:text-left">
-            Built for transparency in agriculture. © {new Date().getFullYear()} AgriTraceChain. All Rights Reserved.
+            Built for transparency in agriculture. © {new Date().getFullYear()} TruCrop. All Rights Reserved.
           </p>
         </div>
       </div>

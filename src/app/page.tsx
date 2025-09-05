@@ -48,7 +48,7 @@ export default function HomePage() {
               Trace Your Food, <span className="text-primary">Trust Your Roots</span>
             </h1>
             <p className="mt-6 mx-auto max-w-2xl text-lg text-muted-foreground">
-              AgriTraceChain brings unparalleled transparency to the agricultural supply chain using blockchain technology. Empowering farmers, distributors, and consumers with verifiable data.
+              TruCrop brings unparalleled transparency to the agricultural supply chain using blockchain technology. Empowering farmers, distributors, and consumers with verifiable data.
             </p>
             <div className="mt-8 flex justify-center gap-4">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground">
@@ -66,7 +66,7 @@ export default function HomePage() {
         <section id="features" className="py-16 md:py-24 bg-card/50">
           <div className="container mx-auto px-6">
             <div className="text-center">
-              <h2 className="text-3xl font-headline font-bold md:text-4xl">Why AgriTraceChain?</h2>
+              <h2 className="text-3xl font-headline font-bold md:text-4xl">Why TruCrop?</h2>
               <p className="mt-4 text-lg text-muted-foreground">
                 A new era of trust and efficiency in agriculture.
               </p>

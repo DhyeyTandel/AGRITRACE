@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'AgriTraceChain',
-  description: 'Traceability and Transparency in the Agricultural Supply Chain.',
+  title: 'TruCrop',
+  description: 'Traceability and Transparency for Modern Agriculture.',
 };
 
 export default function RootLayout({
