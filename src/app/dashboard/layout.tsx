@@ -20,6 +20,7 @@ import {
   CheckCircle,
   Home,
   Leaf,
+  QrCode,
   Search,
   Tractor,
 } from 'lucide-react';
@@ -40,6 +41,7 @@ const navItems = [
   { href: '/dashboard/transactions', icon: CheckCircle, label: 'Transactions' },
   { href: '/dashboard/fair-price', icon: BarChart2, label: 'Fair Price' },
   { href: '/dashboard/anomalies', icon: Search, label: 'Anomalies' },
+  { href: '/dashboard/qr-scanner', icon: QrCode, label: 'QR Scanner' },
 ];
 
 export default function DashboardLayout({
