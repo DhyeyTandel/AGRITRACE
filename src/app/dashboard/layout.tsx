@@ -91,8 +91,8 @@ export default function DashboardLayout({
                       <AvatarFallback>U</AvatarFallback>
                     </Avatar>
                     <div className="text-left group-data-[collapsible=icon]:hidden">
-                      <p className="font-medium text-sm">John Farmer</p>
-                      <p className="text-xs text-muted-foreground">john.farmer@email.com</p>
+                      <p className="font-medium text-sm">Mukesh Kisaan</p>
+                      <p className="text-xs text-muted-foreground">mukesh.kisaan@email.com</p>
                     </div>
                   </div>
                 </Button>
