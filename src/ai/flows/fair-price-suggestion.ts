@@ -33,7 +33,7 @@ const FairPriceSuggestionOutputSchema = z.object({
   suggestedPrice: z
     .number()
     .describe('The suggested fair price for the produce based on the provided data.'),
-  currency: z.string().describe('The currency of the suggested price (e.g., USD).'),
+  currency: z.string().describe('The currency of the suggested price (e.g., INR).'),
   reasoning: z
     .string()
     .describe(
@@ -62,7 +62,7 @@ const prompt = ai.definePrompt({
 
   Consider all factors, including market demand, supply, transportation costs, and intermediaries involved.
 
-  Provide a suggested price, the currency, and a detailed reasoning for your suggestion.
+  Provide a suggested price in INR, the currency (INR), and a detailed reasoning for your suggestion.
 
   Format your response as a JSON object with "suggestedPrice", "currency", and "reasoning" fields.`,
 });

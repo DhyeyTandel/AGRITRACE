@@ -4,10 +4,10 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
 const transactions = [
-  { id: 'TXN-73920', productId: 'PROD-001', type: 'Payment', amount: '2,500 USD', status: 'Verified', date: '2023-10-26' },
+  { id: 'TXN-73920', productId: 'PROD-001', type: 'Payment', amount: '2,500 INR', status: 'Verified', date: '2023-10-26' },
   { id: 'TXN-73921', productId: 'PROD-002', type: 'Transfer', amount: 'N/A', status: 'Pending', date: '2023-10-25' },
   { id: 'TXN-73922', productId: 'PROD-003', type: 'Quality Check', amount: 'N/A', status: 'Verified', date: '2023-10-24' },
-  { id: 'TXN-73923', productId: 'PROD-004', type: 'Payment', amount: '500 USD', status: 'Verified', date: '2023-10-23' },
+  { id: 'TXN-73923', productId: 'PROD-004', type: 'Payment', amount: '500 INR', status: 'Verified', date: '2023-10-23' },
 ];
 
 export default function TransactionsPage() {
